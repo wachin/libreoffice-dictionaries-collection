@@ -128,7 +128,6 @@ dict-xx/
 ¡Las contribuciones son bienvenidas! Si encuentras:
 - Diccionarios faltantes
 - Errores en los archivos
-- Problemas de licencia
 
 Abre un *issue* o envía un *pull request*.
 
@@ -139,7 +138,4 @@ Abre un *issue* o envía un *pull request*.
 
 ---
 
-**Última actualización**: Extraídos de LibreOffice 25.2.3 (2024)
-```
-
----
+**Última actualización**: Extraídos de LibreOffice 25.2.3 (2025)
