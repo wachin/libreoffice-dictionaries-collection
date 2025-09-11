@@ -3,139 +3,152 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Dictionary Count](https://img.shields.io/badge/Dictionaries-138-green.svg)](https://github.com/usuario/libreoffice-dictionaries-collection)
 
-> Colección completa de diccionarios multilingües extraídos de LibreOffice Portable 25.2.3
+> Complete multilingual dictionary collection extracted from LibreOffice Portable 25.2.3
 
-## 📚 Descripción
-Este repositorio contiene **138 diccionarios** de LibreOffice en 42 idiomas, incluyendo:
-- **Corrección ortográfica** (archivos `.aff` + `.dic`)
-- **Sinónimos** (archivos `.dat` + `.idx`)
-- **División silábica** (archivos `hyph_*.dic`)
+**En español**
+[README_ES.md](README_ES.md)
 
-Extraídos de la versión [LibreOffice Portable 25.2.3](https://portableapps.com/apps/office/libreoffice_portable) para uso en:
+## 📚 Description
+This repository contains **138 dictionaries** from LibreOffice in 42 languages, including:
+- **Spell checking** (`.aff` + `.dic` files)
+- **Synonyms** (`.dat` + `.idx` files)
+- **Hyphenation** (`hyph_*.dic` files)
+
+Extracted from [LibreOffice Portable 25.2.3](https://portableapps.com/apps/office/libreoffice_portable) for use in:
 - OpenOffice/LibreOffice
-- Navegadores (Firefox, Thunderbird)
-- Editores de texto
-- Proyectos de software libre
+- Browsers (Firefox, Thunderbird)
+- Text editors
+- Open-source software projects
 
-## 🌍 Idiomas disponibles
+## 🌍 Available Languages
 
-| **Código** |      **Idioma**      |
-| ---------- | -------------------- |
-| af         | Afrikaans            |
-| an         | Aragonés             |
-| ar         | Árabe                |
-| be         | Bielorruso           |
-| bg         | Búlgaro              |
-| bn         | Bengalí              |
-| bo         | Tibetano             |
-| br         | Bretón               |
-| bs         | Bosnio               |
-| ca         | Catalán              |
-| ckb        | Kurdo central        |
-| cs         | Checo                |
-| da         | Danés                |
-| de         | Alemán               |
-| el         | Griego               |
-| en         | Inglés               |
-| eo         | Esperanto            |
-| es         | Español              |
-| et         | Estonio              |
-| fa         | Persa                |
-| fr         | Francés              |
-| gd         | Gaélico escocés      |
-| gl         | Gallego              |
-| gu         | Guyaratí             |
-| he         | Hebreo               |
-| hi         | Hindi                |
-| hr         | Croata               |
-| hu         | Húngaro              |
-| id         | Indonesio            |
-| is         | Islandés             |
-| it         | Italiano             |
-| ko         | Coreano              |
-| lo         | Lao                  |
-| lt         | Lituano              |
-| lv         | Letón                |
-| mn         | Mongol               |
-| ne         | Nepalí               |
-| nl         | Neerlandés           |
-| no         | Noruego              |
-| oc         | Occitano             |
-| pl         | Polaco               |
-| pt-BR      | Portugués (Brasil)   |
-| pt-PT      | Portugués (Portugal) |
-| ro         | Rumano               |
-| ru         | Ruso                 |
-| si         | Cingalés             |
-| sk         | Eslovaco             |
-| sl         | Esloveno             |
-| sq         | Albanés              |
-| sr         | Serbio               |
-| sv         | Sueco                |
-| te         | Telugu               |
-| th         | Tailandés            |
-| tr         | Turco                |
-| uk         | Ucraniano            |
-| vi         | Vietnamita           |
-| zu         | Zulú                 |
+| Code  | Language               |
+|-------|------------------------|
+| af    | Afrikaans             |
+| an    | Aragonese             |
+| ar    | Arabic                |
+| be    | Belarusian            |
+| bg    | Bulgarian             |
+| bn    | Bengali               |
+| bo    | Tibetan               |
+| br    | Breton                |
+| bs    | Bosnian               |
+| ca    | Catalan               |
+| ckb   | Central Kurdish       |
+| cs    | Czech                 |
+| da    | Danish                |
+| de    | German                |
+| el    | Greek                 |
+| en    | English               |
+| eo    | Esperanto             |
+| es    | Spanish               |
+| et    | Estonian              |
+| fa    | Persian               |
+| fr    | French                |
+| gd    | Scottish Gaelic       |
+| gl    | Galician              |
+| gu    | Gujarati              |
+| he    | Hebrew                |
+| hi    | Hindi                 |
+| hr    | Croatian              |
+| hu    | Hungarian             |
+| id    | Indonesian            |
+| is    | Icelandic             |
+| it    | Italian               |
+| ko    | Korean                |
+| lo    | Lao                   |
+| lt    | Lithuanian            |
+| lv    | Latvian               |
+| mn    | Mongolian             |
+| ne    | Nepali                |
+| nl    | Dutch                 |
+| no    | Norwegian             |
+| oc    | Occitan               |
+| pl    | Polish                |
+| pt-BR | Portuguese (Brazil)   |
+| pt-PT | Portuguese (Portugal) |
+| ro    | Romanian              |
+| ru    | Russian               |
+| si    | Sinhala               |
+| sk    | Slovak                |
+| sl    | Slovenian             |
+| sq    | Albanian              |
+| sr    | Serbian               |
+| sv    | Swedish               |
+| te    | Telugu                |
+| th    | Thai                  |
+| tr    | Turkish               |
+| uk    | Ukrainian             |
+| vi    | Vietnamese            |
+| zu    | Zulu                  |
 
-Esta tabla incluye los 42 idiomas disponibles en la colección, manteniendo los códigos originales de LibreOffice y sus nombres en español para mayor claridad. Los códigos con guion (como pt-BR y pt-PT) representan variantes regionales específicas del idioma.
+This table includes the 42 languages ​​available in the collection, maintaining the original LibreOffice codecs and their Spanish names for clarity. Codes with hyphens (such as pt-BR and pt-PT) represent regionally specific variants of the language.
 
-La **ruta** donde estaban es esta:
+The **path** to where they were located is this:
 
- → PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
+→ PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
 
 
-## 🚀 Uso en aplicaciones
+## 🚀 Usage in applications
+### For OpenOffice/LibreOffice:
+1. Download the required language folder
+2. Copy the `.aff` and `.dic` files to:
+   ```
+   /usr/share/hunspell/  (Linux)
+   C:\Program Files\LibreOffice\share\dict\  (Windows)
+   ```
+3. Restart the application
 
-### Para Firefox/Thunderbird:
-1. Copia los archivos `.aff` y `.dic` en el perfil de usuario:
-```
-[Perfil]/dictionaries/
-```
-2. Reinicia la aplicación
+### For Firefox/Thunderbird:
+1. Copy the `.aff` and `.dic` files to the user profile:
+   ```
+   [Profile]/dictionaries/
+   ```
+2. Restart the application
 
-### Para desarrolladores (Hunspell):
+### For developers (Hunspell):
 ```python
 import hunspell
 hunspell_object = hunspell.Hunspell("es_ES.dic", "es_ES.aff")
 ```
 
-## ⚖️ Licencias
-Cada diccionario tiene su propia licencia. Verifica los archivos:
+## ⚖️ Licenses
+Each dictionary has its own license. Check these files:
 - `LICENSE*.txt`
 - `COPYING*`
 - `README_*.txt`
 
-La mayoría usan:
+Most use:
 - **GPL**, **LGPL**, **MPL** (Mozilla Public License)
-- Licencias de código abierto (BSD, MIT, etc.)
+- Open-source licenses (BSD, MIT, etc.)
 
-## 🔧 Estructura de archivos
+## 🔧 File structure
 ```
 dict-xx/
-├── xx_YY.aff       # Reglas de afijos
-├── xx_YY.dic       # Diccionario principal
-├── hyph_xx_YY.dic  # División silábica
-├── th_xx_YY.dat    # Sinónimos (datos)
-├── th_xx_YY.idx    # Sinónimos (índice)
-├── description.xml # Metadatos
-├── dictionaries.xcu# Configuración
-└── README_*.txt    # Información del idioma
+├── xx_YY.aff       # Affix rules
+├── xx_YY.dic       # Main dictionary
+├── hyph_xx_YY.dic  # Hyphenation patterns
+├── th_xx_YY.dat    # Thesaurus data
+├── th_xx_YY.idx    # Thesaurus index
+├── description.xml # Metadata
+├── dictionaries.xcu# Configuration
+└── README_*.txt    # Language information
 ```
 
-## 🤝 Contribuciones
-¡Las contribuciones son bienvenidas! Si encuentras:
-- Diccionarios faltantes
-- Errores en los archivos
+## 🤝 Contributions
+Contributions are welcome! If you find:
+- Missing dictionaries
+- File errors
+- License issues
 
-Abre un *issue* o envía un *pull request*.
+Open an *issue* or submit a *pull request*.
 
-## 📄 Créditos
-- **Fuente original**: [LibreOffice Portable](https://portableapps.com/)
-- **Desarrolladores**: Equipo de LibreOffice y colaboradores de diccionarios
-- **Licencias**: Ver archivos específicos de cada idioma
+## 📄 Credits
+- **Original source**: [LibreOffice Portable](https://portableapps.com/)
+- **Developers**: LibreOffice team and dictionary contributors
+- **Licenses**: See specific files for each language
 
 ---
 
-**Última actualización**: Extraídos de LibreOffice 25.2.3 (2025)
+**Last updated**: Extracted from LibreOffice 25.2.3 (2025)
+
