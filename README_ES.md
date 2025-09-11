@@ -124,6 +124,226 @@ dict-xx/
 └── README_*.txt    # Información del idioma
 ```
 
+## 🔗 Usar como Submódulo de Git
+
+Este repositorio puede usarse como un **submódulo de Git** en otros proyectos que requieran funcionalidad de diccionarios. Esto es especialmente útil para:
+
+- Editores de texto
+- Procesadores de texto
+- Aplicaciones de aprendizaje de idiomas
+- Cualquier software que necesite procesamiento de texto multilingüe
+
+### 🐍 Ejemplo de Integración: Aplicación Python/PyQt6
+
+#### 1. Añadir como Submódulo
+En la raíz de tu proyecto:
+```bash
+git submodule add https://github.com/wachin/libreoffice-dictionaries-collection.git libs/dictionaries
+git commit -m "Añadir submódulo de diccionarios"
+```
+
+#### 2. Instalar Dependencias (Ubuntu/Debian)
+```bash
+sudo apt-get install python3-pyqt6 python3-enchant python3-hunspell python3-pyphen libmythes-1.2-0 libmythes-dev
+pip install git+https://github.com/corerd/pythes
+```
+
+#### 3. Estructura del Proyecto
+```
+tu-proyecto/
+├── .gitmodules
+├── main.py
+├── requirements.txt
+└── libs/
+    └── dictionaries/  # Submódulo
+        ├── dicts/
+        │   ├── dict-es/
+        │   ├── dict-en/
+        │   └── ...
+        └── README.md
+```
+
+#### 4. Implementación del Código
+```python
+import os
+import sys
+from PyQt6.QtWidgets import QApplication, QMainWindow, QTextEdit, QVBoxLayout, QWidget, QPushButton
+
+# Librerías de diccionarios
+import enchant
+import hunspell
+import pyphen
+from pythes import Thesaurus
+
+class DictionaryApp(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.dict_path = os.path.join(os.path.dirname(__file__), 
+                                     "libs", "dictionaries", "dicts")
+        self.init_ui()
+        self.init_dictionaries()
+    
+    def init_ui(self):
+        self.setWindowTitle("Procesador de Diccionarios")
+        self.setGeometry(100, 100, 800, 600)
+        
+        # Layout
+        layout = QVBoxLayout()
+        self.text_edit = QTextEdit()
+        layout.addWidget(self.text_edit)
+        
+        # Botones
+        btn_spell = QPushButton("Verificar Ortografía")
+        btn_spell.clicked.connect(self.check_spelling)
+        layout.addWidget(btn_spell)
+        
+        btn_hyphen = QPushButton("Dividir Sílabas")
+        btn_hyphen.clicked.connect(self.hyphenate_text)
+        layout.addWidget(btn_hyphen)
+        
+        btn_synonyms = QPushButton("Obtener Sinónimos")
+        btn_synonyms.clicked.connect(self.get_synonyms)
+        layout.addWidget(btn_synonyms)
+        
+        container = QWidget()
+        container.setLayout(layout)
+        self.setCentralWidget(container)
+    
+    def init_dictionaries(self):
+        # Inicializar diccionarios en español
+        lang = "es"
+        lang_path = os.path.join(self.dict_path, f"dict-{lang}")
+        
+        # Corrección ortográfica (Hunspell)
+        self.hunspell = hunspell.HunSpell(
+            os.path.join(lang_path, f"{lang}_ES.aff"),
+            os.path.join(lang_path, f"{lang}_ES.dic")
+        )
+        
+        # División silábica (Pyphen)
+        self.pyphen = pyphen.Pyphen(lang=f"{lang}_ES")
+        
+        # Tesauro (MyThes)
+        self.thesaurus = Thesaurus(
+            os.path.join(lang_path, f"th_{lang}_ES_v2.dat"),
+            os.path.join(lang_path, f"th_{lang}_ES_v2.idx")
+        )
+    
+    def check_spelling(self):
+        text = self.text_edit.toPlainText()
+        words = text.split()
+        
+        print("\n=== RESULTADOS DE VERIFICACIÓN ORTOGRÁFICA ===")
+        for word in words:
+            word = word.strip(".,!?;:")
+            if word:
+                if self.hunspell.spell(word):
+                    print(f"✓ {word}")
+                else:
+                    suggestions = self.hunspell.suggest(word)
+                    print(f"✗ {word} -> {suggestions[:3]}")  # Mostrar 3 sugerencias
+    
+    def hyphenate_text(self):
+        text = self.text_edit.toPlainText()
+        words = text.split()
+        
+        print("\n=== RESULTADOS DE DIVISIÓN SILÁBICA ===")
+        for word in words:
+            word = word.strip(".,!?;:")
+            if word:
+                hyphenated = self.pyphen.inserted(word)
+                print(f"{word} -> {hyphenated}")
+    
+    def get_synonyms(self):
+        word = self.text_edit.toPlainText().strip()
+        if not word:
+            return
+            
+        print(f"\n=== SINÓNIMOS DE '{word}' ===")
+        meanings = self.thesaurus.lookup(word)
+        if meanings:
+            for i, meaning in enumerate(meanings[:3], 1):  # Mostrar 3 significados
+                print(f"{i}. {meaning.description}:")
+                print(f"   {', '.join(meaning.synonyms[:5])}")  # Mostrar 5 sinónimos
+        else:
+            print("No se encontraron sinónimos")
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = DictionaryApp()
+    window.show()
+    sys.exit(app.exec())
+```
+
+### 📚 Ejemplos de Uso de Diccionarios
+
+#### Corrección Ortográfica (Hunspell)
+```python
+import hunspell
+
+# Inicializar diccionario
+h = hunspell.HunSpell("libs/dictionaries/dicts/dict-es/es_ES.aff", 
+                     "libs/dictionaries/dicts/dict-es/es_ES.dic")
+
+# Verificar palabra
+word = "computadora"
+if h.spell(word):
+    print(f"'{word}' es correcta")
+else:
+    suggestions = h.suggest(word)
+    print(f"Sugerencias: {suggestions}")
+```
+
+#### División Silábica (Pyphen)
+```python
+import pyphen
+
+# Inicializar diccionario
+dic = pyphen.Pyphen(lang='es_ES')
+
+# Dividir palabra
+word = "extraordinario"
+hyphenated = dic.inserted(word)  # "ex-tra-or-di-na-rio"
+print(f"División silábica: {hyphenated}")
+```
+
+#### Tesauro (MyThes vía pythes)
+```python
+from pythes import Thesaurus
+
+# Inicializar tesauro
+thes = Thesaurus("libs/dictionaries/dicts/dict-es/th_es_ES_v2.dat",
+                 "libs/dictionaries/dicts/dict-es/th_es_ES_v2.idx")
+
+# Obtener sinónimos
+word = "rápido"
+meanings = thes.lookup(word)
+for meaning in meanings:
+    print(f"{meaning.description}: {meaning.synonyms}")
+```
+
+### 🔄 Actualizar Submódulo
+Para actualizar los diccionarios a la última versión:
+```bash
+git submodule update --remote --merge
+```
+
+### 💡 Beneficios de Usar como Submódulo
+1. **Gestión Centralizada**: Única fuente para todos los diccionarios
+2. **Control de Versiones**: Fijar versiones específicas de diccionarios
+3. **Eficiencia de Espacio**: Diccionarios almacenados una vez, referenciados por múltiples proyectos
+4. **Actualizaciones Sencillas**: Actualizar todos los diccionarios con un comando
+5. **Colaboración**: Contribuir mejoraciones al proyecto original
+
+### 🛠️ Librerías Soportadas
+|     Funcionalidad      |   Librería    | Archivos Utilizados |
+| ---------------------- | ------------- | ------------------- |
+| Corrección Ortográfica | hunspell      | `.aff` + `.dic`     |
+| División Silábica      | pyphen        | Patrones `.dic`     |
+| Tesauro                | pythes/MyThes | `.dat` + `.idx`     |
+| Alternativa            | enchant       | `.aff` + `.dic`     |
+
+
 ## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras:
 - Diccionarios faltantes
