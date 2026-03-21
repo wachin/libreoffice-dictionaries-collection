@@ -3,110 +3,122 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Dictionary Count](https://img.shields.io/badge/Dictionaries-138-green.svg)](https://github.com/usuario/libreoffice-dictionaries-collection)
 
-> Complete multilingual dictionary collection extracted from LibreOffice Portable 25.2.3
+> Complete multilingual dictionary collection extracted from LibreOffice Portable 25.2.3  
 
 **En español**
 [README_ES.md](README_ES.md)
 
 ## 📚 Description
 This repository contains **138 dictionaries** from LibreOffice in 42 languages, including:
-- **Spell checking** (`.aff` + `.dic` files)
-- **Synonyms** (`.dat` + `.idx` files)
-- **Hyphenation** (`hyph_*.dic` files)
+
+- **Spell checking** (`.aff` + `.dic` files)  
+- **Synonyms** (`.dat` + `.idx` files)  
+- **Hyphenation** (`hyph_*.dic` files)  
 
 Extracted from [LibreOffice Portable 25.2.3](https://portableapps.com/apps/office/libreoffice_portable) for use in:
-- OpenOffice/LibreOffice
-- Browsers (Firefox, Thunderbird)
-- Text editors
-- Open-source software projects
+
+- OpenOffice/LibreOffice  
+- Browsers (Firefox, Thunderbird)  
+- Text editors  
+- Open-source software projects  
 
 ## 🌍 Available Languages
 
-| Code  | Language               |
-|-------|------------------------|
-| af    | Afrikaans             |
-| an    | Aragonese             |
-| ar    | Arabic                |
-| be    | Belarusian            |
-| bg    | Bulgarian             |
-| bn    | Bengali               |
-| bo    | Tibetan               |
-| br    | Breton                |
-| bs    | Bosnian               |
-| ca    | Catalan               |
-| ckb   | Central Kurdish       |
-| cs    | Czech                 |
-| da    | Danish                |
-| de    | German                |
-| el    | Greek                 |
-| en    | English               |
-| eo    | Esperanto             |
-| es    | Spanish               |
-| et    | Estonian              |
-| fa    | Persian               |
-| fr    | French                |
-| gd    | Scottish Gaelic       |
-| gl    | Galician              |
-| gu    | Gujarati              |
-| he    | Hebrew                |
-| hi    | Hindi                 |
-| hr    | Croatian              |
-| hu    | Hungarian             |
-| id    | Indonesian            |
-| is    | Icelandic             |
-| it    | Italian               |
-| ko    | Korean                |
-| lo    | Lao                   |
-| lt    | Lithuanian            |
-| lv    | Latvian               |
-| mn    | Mongolian             |
-| ne    | Nepali                |
-| nl    | Dutch                 |
-| no    | Norwegian             |
-| oc    | Occitan               |
-| pl    | Polish                |
-| pt-BR | Portuguese (Brazil)   |
-| pt-PT | Portuguese (Portugal) |
-| ro    | Romanian              |
-| ru    | Russian               |
-| si    | Sinhala               |
-| sk    | Slovak                |
-| sl    | Slovenian             |
-| sq    | Albanian              |
-| sr    | Serbian               |
-| sv    | Swedish               |
-| te    | Telugu                |
-| th    | Thai                  |
-| tr    | Turkish               |
-| uk    | Ukrainian             |
-| vi    | Vietnamese            |
-| zu    | Zulu                  |
+|   **Code**    |     **Language**      |
+| ------------- | --------------------- |
+| 🗀 dict-af    | Afrikaans             |
+| 🗀 dict-an    | Aragonese             |
+| 🗀 dict-ar    | Arabic                |
+| 🗀 dict-be    | Belarusian            |
+| 🗀 dict-bg    | Bulgarian             |
+| 🗀 dict-bn    | Bengali               |
+| 🗀 dict-bo    | Tibetan               |
+| 🗀 dict-br    | Breton                |
+| 🗀 dict-bs    | Bosnian               |
+| 🗀 dict-ca    | Catalan               |
+| 🗀 dict-ckb   | Central Kurdish       |
+| 🗀 dict-cs    | Czech                 |
+| 🗀 dict-da    | Danish                |
+| 🗀 dict-de    | German                |
+| 🗀 dict-el    | Greek                 |
+| 🗀 dict-en    | English               |
+| 🗀 dict-eo    | Esperanto             |
+| 🗀 dict-es    | Spanish               |
+| 🗀 dict-et    | Estonian              |
+| 🗀 dict-fa    | Persian               |
+| 🗀 dict-fr    | French                |
+| 🗀 dict-gd    | Scottish Gaelic       |
+| 🗀 dict-gl    | Galician              |
+| 🗀 dict-gu    | Gujarati              |
+| 🗀 dict-he    | Hebrew                |
+| 🗀 dict-hi    | Hindi                 |
+| 🗀 dict-hr    | Croatian              |
+| 🗀 dict-hu    | Hungarian             |
+| 🗀 dict-id    | Indonesian            |
+| 🗀 dict-is    | Icelandic             |
+| 🗀 dict-it    | Italian               |
+| 🗀 dict-ko    | Korean                |
+| 🗀 dict-lo    | Lao                   |
+| 🗀 dict-lt    | Lithuanian            |
+| 🗀 dict-lv    | Latvian               |
+| 🗀 dict-mn    | Mongolian             |
+| 🗀 dict-ne    | Nepali                |
+| 🗀 dict-nl    | Dutch                 |
+| 🗀 dict-no    | Norwegian             |
+| 🗀 dict-oc    | Occitan               |
+| 🗀 dict-pl    | Polish                |
+| 🗀 dict-pt-BR | Portuguese (Brazil)   |
+| 🗀 dict-pt-PT | Portuguese (Portugal) |
+| 🗀 dict-ro    | Romanian              |
+| 🗀 dict-ru    | Russian               |
+| 🗀 dict-si    | Sinhala               |
+| 🗀 dict-sk    | Slovak                |
+| 🗀 dict-sl    | Slovene               |
+| 🗀 dict-sq    | Albanian              |
+| 🗀 dict-sr    | Serbian               |
+| 🗀 dict-sv    | Swedish               |
+| 🗀 dict-te    | Telugu                |
+| 🗀 dict-th    | Thai                  |
+| 🗀 dict-tr    | Turkish               |
+| 🗀 dict-uk    | Ukrainian             |
+| 🗀 dict-vi    | Vietnamese            |
+| 🗀 dict-zu    | Zulu                  |
 
 This table includes the 42 languages ​​available in the collection, maintaining the original LibreOffice codecs and their Spanish names for clarity. Codes with hyphens (such as pt-BR and pt-PT) represent regionally specific variants of the language.
 
 The **path** to where they were located is this:
 
-→ PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
+🗀 PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
 
 
 ## 🚀 Usage in applications
+
 ### For OpenOffice/LibreOffice:
+
 1. Download the required language folder
 2. Copy the `.aff` and `.dic` files to:
-   ```
-   /usr/share/hunspell/  (Linux)
-   C:\Program Files\LibreOffice\share\dict\  (Windows)
-   ```
+
+```
+/usr/share/hunspell/  (Linux)
+C:\Program Files\LibreOffice\share\extensions\dict\  (Windows)
+```
+   
 3. Restart the application
 
 ### For Firefox/Thunderbird:
+
 1. Copy the `.aff` and `.dic` files to the user profile:
-   ```
-   [Profile]/dictionaries/
-   ```
+
+```
+[Profile]/dictionaries/
+```
+
 2. Restart the application
 
+---
+
 ### For developers (Hunspell):
+
 ```python
 import hunspell
 hunspell_object = hunspell.Hunspell("es_ES.dic", "es_ES.aff")
@@ -114,15 +126,18 @@ hunspell_object = hunspell.Hunspell("es_ES.dic", "es_ES.aff")
 
 ## ⚖️ Licenses
 Each dictionary has its own license. Check these files:
+
 - `LICENSE*.txt`
 - `COPYING*`
 - `README_*.txt`
 
 Most use:
+
 - **GPL**, **LGPL**, **MPL** (Mozilla Public License)
 - Open-source licenses (BSD, MIT, etc.)
 
 ## 🔧 File structure
+
 ```
 dict-xx/
 ├── xx_YY.aff       # Affix rules
@@ -293,6 +308,7 @@ if __name__ == "__main__":
 ### 📚 Dictionary Usage Examples
 
 #### Spell Checking (Hunspell)
+
 ```python
 import hunspell
 
@@ -323,6 +339,7 @@ print(f"Hyphenation: {hyphenated}")
 ```
 
 #### Thesaurus (MyThes via pythes)
+
 ```python
 from pythes import Thesaurus
 
@@ -344,6 +361,7 @@ git submodule update --remote --merge
 ```
 
 ### 💡 Benefits of Using as Submodule
+
 1. **Centralized Management**: Single source for all dictionaries
 2. **Version Control**: Pin specific dictionary versions
 3. **Space Efficiency**: Dictionaries stored once, referenced by multiple projects

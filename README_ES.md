@@ -19,81 +19,101 @@ Extraídos de la versión [LibreOffice Portable 25.2.3](https://portableapps.com
 
 ## 🌍 Idiomas disponibles
 
-| **Código** |      **Idioma**      |
-| ---------- | -------------------- |
-| af         | Afrikaans            |
-| an         | Aragonés             |
-| ar         | Árabe                |
-| be         | Bielorruso           |
-| bg         | Búlgaro              |
-| bn         | Bengalí              |
-| bo         | Tibetano             |
-| br         | Bretón               |
-| bs         | Bosnio               |
-| ca         | Catalán              |
-| ckb        | Kurdo central        |
-| cs         | Checo                |
-| da         | Danés                |
-| de         | Alemán               |
-| el         | Griego               |
-| en         | Inglés               |
-| eo         | Esperanto            |
-| es         | Español              |
-| et         | Estonio              |
-| fa         | Persa                |
-| fr         | Francés              |
-| gd         | Gaélico escocés      |
-| gl         | Gallego              |
-| gu         | Guyaratí             |
-| he         | Hebreo               |
-| hi         | Hindi                |
-| hr         | Croata               |
-| hu         | Húngaro              |
-| id         | Indonesio            |
-| is         | Islandés             |
-| it         | Italiano             |
-| ko         | Coreano              |
-| lo         | Lao                  |
-| lt         | Lituano              |
-| lv         | Letón                |
-| mn         | Mongol               |
-| ne         | Nepalí               |
-| nl         | Neerlandés           |
-| no         | Noruego              |
-| oc         | Occitano             |
-| pl         | Polaco               |
-| pt-BR      | Portugués (Brasil)   |
-| pt-PT      | Portugués (Portugal) |
-| ro         | Rumano               |
-| ru         | Ruso                 |
-| si         | Cingalés             |
-| sk         | Eslovaco             |
-| sl         | Esloveno             |
-| sq         | Albanés              |
-| sr         | Serbio               |
-| sv         | Sueco                |
-| te         | Telugu               |
-| th         | Tailandés            |
-| tr         | Turco                |
-| uk         | Ucraniano            |
-| vi         | Vietnamita           |
-| zu         | Zulú                 |
+
+Aquí está la tabla con la primera columna modificada según lo solicitado:
+
+|  **Código**   |      **Idioma**      |
+| ------------- | -------------------- |
+| 🗀 dict-af    | Afrikaans            |
+| 🗀 dict-an    | Aragonés             |
+| 🗀 dict-ar    | Árabe                |
+| 🗀 dict-be    | Bielorruso           |
+| 🗀 dict-bg    | Búlgaro              |
+| 🗀 dict-bn    | Bengalí              |
+| 🗀 dict-bo    | Tibetano             |
+| 🗀 dict-br    | Bretón               |
+| 🗀 dict-bs    | Bosnio               |
+| 🗀 dict-ca    | Catalán              |
+| 🗀 dict-ckb   | Kurdo central        |
+| 🗀 dict-cs    | Checo                |
+| 🗀 dict-da    | Danés                |
+| 🗀 dict-de    | Alemán               |
+| 🗀 dict-el    | Griego               |
+| 🗀 dict-en    | Inglés               |
+| 🗀 dict-eo    | Esperanto            |
+| 🗀 dict-es    | Español              |
+| 🗀 dict-et    | Estonio              |
+| 🗀 dict-fa    | Persa                |
+| 🗀 dict-fr    | Francés              |
+| 🗀 dict-gd    | Gaélico escocés      |
+| 🗀 dict-gl    | Gallego              |
+| 🗀 dict-gu    | Guyaratí             |
+| 🗀 dict-he    | Hebreo               |
+| 🗀 dict-hi    | Hindi                |
+| 🗀 dict-hr    | Croata               |
+| 🗀 dict-hu    | Húngaro              |
+| 🗀 dict-id    | Indonesio            |
+| 🗀 dict-is    | Islandés             |
+| 🗀 dict-it    | Italiano             |
+| 🗀 dict-ko    | Coreano              |
+| 🗀 dict-lo    | Lao                  |
+| 🗀 dict-lt    | Lituano              |
+| 🗀 dict-lv    | Letón                |
+| 🗀 dict-mn    | Mongol               |
+| 🗀 dict-ne    | Nepalí               |
+| 🗀 dict-nl    | Neerlandés           |
+| 🗀 dict-no    | Noruego              |
+| 🗀 dict-oc    | Occitano             |
+| 🗀 dict-pl    | Polaco               |
+| 🗀 dict-pt-BR | Portugués (Brasil)   |
+| 🗀 dict-pt-PT | Portugués (Portugal) |
+| 🗀 dict-ro    | Rumano               |
+| 🗀 dict-ru    | Ruso                 |
+| 🗀 dict-si    | Cingalés             |
+| 🗀 dict-sk    | Eslovaco             |
+| 🗀 dict-sl    | Esloveno             |
+| 🗀 dict-sq    | Albanés              |
+| 🗀 dict-sr    | Serbio               |
+| 🗀 dict-sv    | Sueco                |
+| 🗀 dict-te    | Telugu               |
+| 🗀 dict-th    | Tailandés            |
+| 🗀 dict-tr    | Turco                |
+| 🗀 dict-uk    | Ucraniano            |
+| 🗀 dict-vi    | Vietnamita           |
+| 🗀 dict-zu    | Zulú                 |
 
 Esta tabla incluye los 42 idiomas disponibles en la colección, manteniendo los códigos originales de LibreOffice y sus nombres en español para mayor claridad. Los códigos con guion (como pt-BR y pt-PT) representan variantes regionales específicas del idioma.
 
-La **ruta** donde estaban es esta:
+La **ruta** donde estaban es esta:  
 
- → PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
+🗀 PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
 
 
 ## 🚀 Uso en aplicaciones
 
+### Para OpenOffice/LibreOffice:
+
+1.  Descargue la carpeta del idioma necesario.
+2.  Copie los archivos `.aff` y `.dic` a:
+
+```
+/usr/share/hunspell/  (Linux)
+C:\Program Files\LibreOffice\share\extensions\dict\  (Windows)
+```
+
+3.  Reinicie la aplicación.
+
 ### Para Firefox/Thunderbird:
-1. Copia los archivos `.aff` y `.dic` en el perfil de usuario:
+
+1.  Copie los archivos `.aff` y `.dic` al perfil de usuario:
+
 ```
-[Perfil]/dictionaries/
+[Profile]/dictionaries/
 ```
-2. Reinicia la aplicación
+
+2.  Reinicie la aplicación.
+
+---
 
 ### Para desarrolladores (Hunspell):
 ```python
@@ -102,16 +122,20 @@ hunspell_object = hunspell.Hunspell("es_ES.dic", "es_ES.aff")
 ```
 
 ## ⚖️ Licencias
+
 Cada diccionario tiene su propia licencia. Verifica los archivos:
+
 - `LICENSE*.txt`
 - `COPYING*`
 - `README_*.txt`
 
 La mayoría usan:
+
 - **GPL**, **LGPL**, **MPL** (Mozilla Public License)
 - Licencias de código abierto (BSD, MIT, etc.)
 
 ## 🔧 Estructura de archivos
+
 ```
 dict-xx/
 ├── xx_YY.aff       # Reglas de afijos
@@ -137,18 +161,21 @@ Este repositorio puede usarse como un **submódulo de Git** en otros proyectos q
 
 #### 1. Añadir como Submódulo
 En la raíz de tu proyecto:
+
 ```bash
 git submodule add https://github.com/wachin/libreoffice-dictionaries-collection.git libs/dictionaries
 git commit -m "Añadir submódulo de diccionarios"
 ```
 
 #### 2. Instalar Dependencias (Ubuntu/Debian)
+
 ```bash
 sudo apt-get install python3-pyqt6 python3-enchant python3-hunspell python3-pyphen libmythes-1.2-0 libmythes-dev
 pip install git+https://github.com/corerd/pythes
 ```
 
 #### 3. Estructura del Proyecto
+
 ```
 tu-proyecto/
 ├── .gitmodules
@@ -164,6 +191,7 @@ tu-proyecto/
 ```
 
 #### 4. Implementación del Código
+
 ```python
 import os
 import sys
@@ -278,6 +306,7 @@ if __name__ == "__main__":
 ### 📚 Ejemplos de Uso de Diccionarios
 
 #### Corrección Ortográfica (Hunspell)
+
 ```python
 import hunspell
 
@@ -295,6 +324,7 @@ else:
 ```
 
 #### División Silábica (Pyphen)
+
 ```python
 import pyphen
 
@@ -308,6 +338,7 @@ print(f"División silábica: {hyphenated}")
 ```
 
 #### Tesauro (MyThes vía pythes)
+
 ```python
 from pythes import Thesaurus
 
@@ -329,6 +360,7 @@ git submodule update --remote --merge
 ```
 
 ### 💡 Beneficios de Usar como Submódulo
+
 1. **Gestión Centralizada**: Única fuente para todos los diccionarios
 2. **Control de Versiones**: Fijar versiones específicas de diccionarios
 3. **Eficiencia de Espacio**: Diccionarios almacenados una vez, referenciados por múltiples proyectos
@@ -336,6 +368,7 @@ git submodule update --remote --merge
 5. **Colaboración**: Contribuir mejoraciones al proyecto original
 
 ### 🛠️ Librerías Soportadas
+
 |     Funcionalidad      |   Librería    | Archivos Utilizados |
 | ---------------------- | ------------- | ------------------- |
 | Corrección Ortográfica | hunspell      | `.aff` + `.dic`     |
@@ -352,6 +385,7 @@ git submodule update --remote --merge
 Abre un *issue* o envía un *pull request*.
 
 ## 📄 Créditos
+
 - **Fuente original**: [LibreOffice Portable](https://portableapps.com/)
 - **Desarrolladores**: Equipo de LibreOffice y colaboradores de diccionarios
 - **Licencias**: Ver archivos específicos de cada idioma
