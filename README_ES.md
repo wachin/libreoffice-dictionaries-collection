@@ -19,8 +19,11 @@ Extraídos de la versión [LibreOffice Portable 25.2.3](https://portableapps.com
 
 ## 🌍 Idiomas disponibles
 
+The **path** to where they were located is this:
 
-Aquí está la tabla con la primera columna modificada según lo solicitado:
+🗀 PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
+
+![](vx_images/PortableApps-LibreOfficePortable-App-libreoffice-share-extensions.png)
 
 |  **Código**   |      **Idioma**      |
 | ------------- | -------------------- |

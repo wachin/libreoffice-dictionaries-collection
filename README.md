@@ -22,7 +22,14 @@ Extracted from [LibreOffice Portable 25.2.3](https://portableapps.com/apps/offic
 - Text editors  
 - Open-source software projects  
 
-## 🌍 Available Languages
+## 🌍 Available languages
+
+The **path** to where they were located is this:
+
+🗀 PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
+
+![](vx_images/PortableApps-LibreOfficePortable-App-libreoffice-share-extensions.png)
+
 
 |   **Code**    |     **Language**      |
 | ------------- | --------------------- |
@@ -86,10 +93,7 @@ Extracted from [LibreOffice Portable 25.2.3](https://portableapps.com/apps/offic
 
 This table includes the 42 languages ​​available in the collection, maintaining the original LibreOffice codecs and their Spanish names for clarity. Codes with hyphens (such as pt-BR and pt-PT) represent regionally specific variants of the language.
 
-The **path** to where they were located is this:
-
-🗀 PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
-
+---
 
 ## 🚀 Usage in applications
 
