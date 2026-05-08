@@ -31,6 +31,10 @@ The **path** to where they were located is this:
 ![](vx_images/PortableApps-LibreOfficePortable-App-libreoffice-share-extensions.png)
 
 
+### Language & Language Code
+
+
+
 |   **Code**    |     **Language**      |
 | ------------- | --------------------- |
 | 🗀 dict-af    | Afrikaans             |
@@ -90,6 +94,8 @@ The **path** to where they were located is this:
 | 🗀 dict-uk    | Ukrainian             |
 | 🗀 dict-vi    | Vietnamese            |
 | 🗀 dict-zu    | Zulu                  |
+
+Yo can check the names [here](https://wiki.documentfoundation.org/Development/Dictionaries)
 
 This table includes the 42 languages ​​available in the collection, maintaining the original LibreOffice codecs and their Spanish names for clarity. Codes with hyphens (such as pt-BR and pt-PT) represent regionally specific variants of the language.
 
