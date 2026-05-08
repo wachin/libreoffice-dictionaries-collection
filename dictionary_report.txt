@@ -1,0 +1,287 @@
+dict-af/            # Afrikaans
+├── af_ZA.aff
+└── af_ZA.dic
+
+dict-an/            # Aragonese
+├── an_ES.aff
+└── an_ES.dic
+
+dict-ar/            # Arabic
+├── ar.aff
+└── ar.dic
+
+dict-be/            # Belarusian
+├── be-official.aff
+└── be-official.dic
+
+dict-bg/            # Bulgarian
+├── bg_BG.aff
+└── bg_BG.dic
+
+dict-bn/            # Bengali
+├── bn_BD.aff
+└── bn_BD.dic
+
+dict-bo/            # Tibetan
+├── bo.aff
+└── bo.dic
+
+dict-br/            # Breton
+├── br_FR.aff
+└── br_FR.dic
+
+dict-bs/            # Bosnian
+├── bs_BA.aff
+└── bs_BA.dic
+
+dict-ca/            # Catalan
+├── ca.aff
+├── ca.dic
+├── ca-valencia.aff
+└── ca-valencia.dic
+
+dict-ckb/            # Central Kurdish
+├── ckb.aff
+└── ckb.dic
+
+dict-cs/            # Czech
+├── cs_CZ.aff
+└── cs_CZ.dic
+
+dict-da/            # Danish
+├── da_DK.aff
+└── da_DK.dic
+
+dict-de/            # German
+├── de_AT_frami.aff
+├── de_AT_frami.dic
+├── de_CH_frami.aff
+├── de_CH_frami.dic
+├── de_DE_frami.aff
+└── de_DE_frami.dic
+
+dict-el/            # Greek
+├── el_GR.aff
+└── el_GR.dic
+
+dict-en/            # English
+├── en_AU.aff
+├── en_AU.dic
+├── en_CA.aff
+├── en_CA.dic
+├── en_GB.aff
+├── en_GB.dic
+├── en_US.aff
+├── en_US.dic
+├── en_ZA.aff
+└── en_ZA.dic
+
+dict-eo/            # Esperanto
+├── eo.aff
+└── eo.dic
+
+dict-es/            # Spanish
+├── es_AR.aff
+├── es_AR.dic
+├── es_BO.aff
+├── es_BO.dic
+├── es_CL.aff
+├── es_CL.dic
+├── es_CO.aff
+├── es_CO.dic
+├── es_CR.aff
+├── es_CR.dic
+├── es_CU.aff
+├── es_CU.dic
+├── es_DO.aff
+├── es_DO.dic
+├── es_EC.aff
+├── es_EC.dic
+├── es_ES.aff
+├── es_ES.dic
+├── es_GQ.aff
+├── es_GQ.dic
+├── es_GT.aff
+├── es_GT.dic
+├── es_HN.aff
+├── es_HN.dic
+├── es_MX.aff
+├── es_MX.dic
+├── es_NI.aff
+├── es_NI.dic
+├── es_PA.aff
+├── es_PA.dic
+├── es_PE.aff
+├── es_PE.dic
+├── es_PH.aff
+├── es_PH.dic
+├── es_PR.aff
+├── es_PR.dic
+├── es_PY.aff
+├── es_PY.dic
+├── es_SV.aff
+├── es_SV.dic
+├── es_US.aff
+├── es_US.dic
+├── es_UY.aff
+├── es_UY.dic
+├── es_VE.aff
+└── es_VE.dic
+
+dict-et/            # Estonian
+├── et_EE.aff
+└── et_EE.dic
+
+dict-fa/            # Persian
+├── fa-IR.aff
+└── fa-IR.dic
+
+dict-fr/            # French
+├── fr.aff
+└── fr.dic
+
+dict-gd/            # Scottish Gaelic
+├── gd_GB.aff
+└── gd_GB.dic
+
+dict-gl/            # Galician
+├── gl_ES.aff
+└── gl_ES.dic
+
+dict-gu/            # Gujarati
+├── gu_IN.aff
+└── gu_IN.dic
+
+dict-he/            # Hebrew
+├── he_IL.aff
+└── he_IL.dic
+
+dict-hi/            # Hindi
+├── hi_IN.aff
+└── hi_IN.dic
+
+dict-hr/            # Croatian
+├── hr_HR.aff
+└── hr_HR.dic
+
+dict-hu/            # Hungarian
+├── hu_HU.aff
+└── hu_HU.dic
+
+dict-id/            # Indonesian
+├── id_ID.aff
+└── id_ID.dic
+
+dict-is/            # Icelandic
+├── is.aff
+└── is.dic
+
+dict-it/            # Italian
+├── it_IT.aff
+└── it_IT.dic
+
+dict-ko/            # Korean
+├── ko_KR.aff
+└── ko_KR.dic
+
+dict-lo/            # Lao
+├── lo_LA.aff
+└── lo_LA.dic
+
+dict-lt/            # Lithuanian
+├── lt.aff
+└── lt.dic
+
+dict-lv/            # Latvian
+├── lv_LV.aff
+└── lv_LV.dic
+
+dict-mn/            # Mongolian
+├── mn_MN.aff
+└── mn_MN.dic
+
+dict-ne/            # Nepali
+├── ne_NP.aff
+└── ne_NP.dic
+
+dict-nl/            # Dutch
+├── nl_NL.aff
+└── nl_NL.dic
+
+dict-no/            # Norwegian
+├── nb_NO.aff
+├── nb_NO.dic
+├── nn_NO.aff
+└── nn_NO.dic
+
+dict-oc/            # Occitan
+├── oc_FR.aff
+└── oc_FR.dic
+
+dict-pl/            # Polish
+├── pl_PL.aff
+└── pl_PL.dic
+
+dict-pt-BR/            # Portuguese (Brazil)
+├── pt_BR.aff
+└── pt_BR.dic
+
+dict-pt-PT/            # Portuguese (Portugal)
+├── pt_PT.aff
+└── pt_PT.dic
+
+dict-ro/            # Romanian
+├── ro_RO.aff
+└── ro_RO.dic
+
+dict-ru/            # Russian
+├── ru_RU.aff
+└── ru_RU.dic
+
+dict-si/            # Sinhala
+├── si_LK.aff
+└── si_LK.dic
+
+dict-sk/            # Slovak
+├── sk_SK.aff
+└── sk_SK.dic
+
+dict-sl/            # Slovene
+├── sl_SI.aff
+└── sl_SI.dic
+
+dict-sq/            # Albanian
+├── sq_AL.aff
+└── sq_AL.dic
+
+dict-sr/            # Serbian
+├── sr.aff
+├── sr.dic
+├── sr-Latn.aff
+└── sr-Latn.dic
+
+dict-sv/            # Swedish
+├── sv_FI.aff
+├── sv_FI.dic
+├── sv_SE.aff
+└── sv_SE.dic
+
+dict-te/            # Telugu
+├── te_IN.aff
+└── te_IN.dic
+
+dict-th/            # Thai
+├── th_TH.aff
+└── th_TH.dic
+
+dict-tr/            # Turkish
+├── tr_TR.aff
+└── tr_TR.dic
+
+dict-uk/            # Ukrainian
+├── uk_UA.aff
+└── uk_UA.dic
+
+dict-vi/            # Vietnamese
+├── vi_VN.aff
+└── vi_VN.dic
