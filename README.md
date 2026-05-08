@@ -382,7 +382,7 @@ git submodule update --remote --merge
 
 ## Notes
 
-The file "package-description.txt" is located in the [dicts/dict-es](dicts/dict-es) folder, but it didn't contain the dictionary abbreviation names. However, the abbreviations are listed in a link there [https://github.com/sbosio/rla-es/blob/master/README.md](https://github.com/sbosio/rla-es/blob/master/README.md), so I copied and pasted them in that place.
+The file "package-description.txt" is located in the [dicts/dict-es](dicts/dict-es) folder, but it didn't contain the dictionary abbreviation names. However, the abbreviations are listed in a link there [https://github.com/sbosio/rla-es/blob/master/README.md](https://github.com/sbosio/rla-es/blob/master/README.md), so I copied and pasted them in "package-description.txt".
 
 ## 🤝 Contributions
 Contributions are welcome! If you find:
