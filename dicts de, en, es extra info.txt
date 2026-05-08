@@ -1,0 +1,7 @@
+20260508
+
+He añadido extra información en tablas sobre la equivalencia de los nombres de los siguientes idiomas:
+
+	dicts/dict-de/package-description-info.txt
+	dicts/dict-en/package-description-info.txt
+	dicts/dict-es/package-description-info.txt
