@@ -1,0 +1,347 @@
+{
+  "source": "wachin/libreoffice-dictionaries-collection/releases/tag/v1.0-dictionaries-thesaurus",
+  "dictionaries": [
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-af.tar.gz",
+      "size": 445688
+    },
+    {
+      "code": "an",
+      "name": "Aragonese",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-an.tar.gz",
+      "size": 92847
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-ar.tar.gz",
+      "size": 1764665
+    },
+    {
+      "code": "be",
+      "name": "Belarusian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-be.tar.gz",
+      "size": 2015575
+    },
+    {
+      "code": "bg",
+      "name": "Bulgarian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-bg.tar.gz",
+      "size": 1592744
+    },
+    {
+      "code": "bn",
+      "name": "Bengali",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-bn.tar.gz",
+      "size": 374387
+    },
+    {
+      "code": "bo",
+      "name": "Classical Tibetan",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-bo.tar.gz",
+      "size": 7782
+    },
+    {
+      "code": "br",
+      "name": "Breton",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-br.tar.gz",
+      "size": 881477
+    },
+    {
+      "code": "bs",
+      "name": "Bosnian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-bs.tar.gz",
+      "size": 116965
+    },
+    {
+      "code": "ca",
+      "name": "Catalan",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-ca.tar.gz",
+      "size": 5226349
+    },
+    {
+      "code": "ckb",
+      "name": "Central Kurdish",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-ckb.tar.gz",
+      "size": 129476
+    },
+    {
+      "code": "cs",
+      "name": "Czech",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-cs.tar.gz",
+      "size": 2702384
+    },
+    {
+      "code": "da",
+      "name": "Danish",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-da.tar.gz",
+      "size": 2292639
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-de.tar.gz",
+      "size": 20983812
+    },
+    {
+      "code": "el",
+      "name": "Modern Greek",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-el.tar.gz",
+      "size": 2128995
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-en.tar.gz",
+      "size": 6841341
+    },
+    {
+      "code": "eo",
+      "name": "Esperanto",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-eo.tar.gz",
+      "size": 284739
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-es.tar.gz",
+      "size": 6646323
+    },
+    {
+      "code": "et",
+      "name": "Estonian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-et.tar.gz",
+      "size": 936363
+    },
+    {
+      "code": "fa",
+      "name": "Persian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-fa.tar.gz",
+      "size": 379016
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-fr.tar.gz",
+      "size": 2227273
+    },
+    {
+      "code": "gd",
+      "name": "Scottish Gaelic",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-gd.tar.gz",
+      "size": 1033519
+    },
+    {
+      "code": "gl",
+      "name": "Galician",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-gl.tar.gz",
+      "size": 1877971
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-gu.tar.gz",
+      "size": 640783
+    },
+    {
+      "code": "he",
+      "name": "Hebrew",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-he.tar.gz",
+      "size": 1183277
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-hi.tar.gz",
+      "size": 75253
+    },
+    {
+      "code": "hr",
+      "name": "Croatian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-hr.tar.gz",
+      "size": 236602
+    },
+    {
+      "code": "hu",
+      "name": "Hungarian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-hu.tar.gz",
+      "size": 2267191
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-id.tar.gz",
+      "size": 967847
+    },
+    {
+      "code": "is",
+      "name": "Icelandic",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-is.tar.gz",
+      "size": 790778
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-it.tar.gz",
+      "size": 1260905
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-ko.tar.gz",
+      "size": 889548
+    },
+    {
+      "code": "lo",
+      "name": "Lao",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-lo.tar.gz",
+      "size": 139756
+    },
+    {
+      "code": "lt",
+      "name": "Lithuanian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-lt.tar.gz",
+      "size": 333374
+    },
+    {
+      "code": "lv",
+      "name": "Latvian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-lv.tar.gz",
+      "size": 411803
+    },
+    {
+      "code": "mn",
+      "name": "Mongolian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-mn.tar.gz",
+      "size": 1784800
+    },
+    {
+      "code": "ne",
+      "name": "Nepali",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-ne.tar.gz",
+      "size": 408716
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-nl.tar.gz",
+      "size": 697286
+    },
+    {
+      "code": "no",
+      "name": "Norwegian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-no.tar.gz",
+      "size": 3342704
+    },
+    {
+      "code": "oc",
+      "name": "Occitan",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-oc.tar.gz",
+      "size": 629086
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-pl.tar.gz",
+      "size": 2311059
+    },
+    {
+      "code": "pt_BR",
+      "name": "Portuguese (Brazil)",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-pt-BR.tar.gz",
+      "size": 6552432
+    },
+    {
+      "code": "pt_PT",
+      "name": "Portuguese (Portugal)",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-pt-PT.tar.gz",
+      "size": 1586819
+    },
+    {
+      "code": "ro",
+      "name": "Romanian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-ro.tar.gz",
+      "size": 1868176
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-ru.tar.gz",
+      "size": 1327536
+    },
+    {
+      "code": "si",
+      "name": "Sinhalese",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-si.tar.gz",
+      "size": 293980
+    },
+    {
+      "code": "sk",
+      "name": "Slovak",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-sk.tar.gz",
+      "size": 1020564
+    },
+    {
+      "code": "sl",
+      "name": "Slovenian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-sl.tar.gz",
+      "size": 1702436
+    },
+    {
+      "code": "sq",
+      "name": "Albanian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-sq.tar.gz",
+      "size": 724509
+    },
+    {
+      "code": "sr",
+      "name": "Serbian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-sr.tar.gz",
+      "size": 2185261
+    },
+    {
+      "code": "sv",
+      "name": "Swedish",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-sv.tar.gz",
+      "size": 1800628
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-te.tar.gz",
+      "size": 555453
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-th.tar.gz",
+      "size": 278969
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-tr.tar.gz",
+      "size": 14542316
+    },
+    {
+      "code": "uk",
+      "name": "Ukrainian",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-uk.tar.gz",
+      "size": 1846375
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-vi.tar.gz",
+      "size": 22357
+    },
+    {
+      "code": "zu",
+      "name": "Zulu",
+      "url": "https://github.com/wachin/libreoffice-dictionaries-collection/releases/download/v1.0-dictionaries-thesaurus/dict-zu.tar.gz",
+      "size": 5059
+    }
+  ]
+}
