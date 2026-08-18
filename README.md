@@ -167,6 +167,27 @@ This repository can be used as a **Git submodule** in other projects that requir
 - Language learning applications
 - Any software needing multilingual text processing
 
+### Packaging tools
+
+This repository includes helper scripts to package and distribute the dictionaries:
+
+- **`tools/package-dicts.sh`** — Compresses each `dict-XX/` folder into an individual
+  `.tar.gz` archive. Run this before creating a new GitHub Release.
+- **`tools/fetch-dict-list.py`** — Fetches the list of dictionary assets from a
+  published GitHub Release and generates a `dictionaries.json` file with download
+  URLs and sizes.
+- **`tools/README.md`** — Full usage instructions for both scripts.
+- **`dictionaries.json`** — Pre-generated index of all dictionaries with their
+  download URLs (from the
+  [v1.0-dictionaries-thesaurus](https://github.com/wachin/libreoffice-dictionaries-collection/releases/tag/v1.0-dictionaries-thesaurus)
+  release). Applications can consume this file to let users download dictionaries
+  on demand.
+- **`release-description.md`** — Release notes template for publishing new
+  dictionary releases.
+
+These tools are designed so that developers who fork or clone this repository
+can easily create their own releases and update the dictionary index accordingly.
+
 ### 🐍 Integration Example: Python/PyQt6 Application
 
 #### 1. Add as Submodule
