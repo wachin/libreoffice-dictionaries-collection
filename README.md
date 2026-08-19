@@ -1,105 +1,245 @@
 # LibreOffice Dictionaries Collection
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Dictionary Count](https://img.shields.io/badge/Dictionaries-138-green.svg)](https://github.com/usuario/libreoffice-dictionaries-collection)
+[![Dictionary Count](https://img.shields.io/badge/Dictionaries-57-green.svg)](https://github.com/wachin/libreoffice-dictionaries-collection)
 
-> Complete multilingual dictionary collection extracted from LibreOffice Portable 25.2.3  
+> Complete multilingual dictionary collection extracted from LibreOffice Portable 25.2.3
+>
+> **All dictionaries converted to UTF-8** for universal compatibility.
 
 **En español**
 [README_ES.md](README_ES.md)
 
-## 📚 Description
-This repository contains **138 dictionaries** from LibreOffice in 42 languages, including:
+##  Description
 
-- **Spell checking** (`.aff` + `.dic` files)  
-- **Synonyms** (`.dat` + `.idx` files)  
-- **Hyphenation** (`hyph_*.dic` files)  
+This repository contains **57 dictionaries** from LibreOffice in 42 languages, including:
+
+- **Spell checking** (`.aff` + `.dic` files)
+- **Synonyms** (`.dat` + `.idx` files)
+- **Hyphenation** (`hyph_*.dic` files)
 
 Extracted from [LibreOffice Portable 25.2.3](https://portableapps.com/apps/office/libreoffice_portable) for use in:
 
-- OpenOffice/LibreOffice  
-- Browsers (Firefox, Thunderbird)  
-- Text editors  
-- Open-source software projects  
+- OpenOffice/LibreOffice
+- Browsers (Firefox, Thunderbird)
+- Text editors
+- Open-source software projects
 
-## 🌍 Available languages
+## 🌍 Available Languages
 
-The **path** to where they were located is this:
+The **path** to where they were located:
 
-🗀 PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
-
-![](vx_images/PortableApps-LibreOfficePortable-App-libreoffice-share-extensions.png)
-
+> 📂 PortableApps → LibreOfficePortable → App → libreoffice → share → extensions
 
 ### Language Code & Language
 
-| **Language Code** |     **Language**      |
-| ----------------- | --------------------- |
-| 🗀 dict-af        | Afrikaans             |
-| 🗀 dict-an        | Aragonese             |
-| 🗀 dict-ar        | Arabic                |
-| 🗀 dict-be        | Belarusian            |
-| 🗀 dict-bg        | Bulgarian             |
-| 🗀 dict-bn        | Bengali               |
-| 🗀 dict-bo        | Tibetan               |
-| 🗀 dict-br        | Breton                |
-| 🗀 dict-bs        | Bosnian               |
-| 🗀 dict-ca        | Catalan               |
-| 🗀 dict-ckb       | Central Kurdish       |
-| 🗀 dict-cs        | Czech                 |
-| 🗀 dict-da        | Danish                |
-| 🗀 dict-de        | German                |
-| 🗀 dict-el        | Greek                 |
-| 🗀 dict-en        | English               |
-| 🗀 dict-eo        | Esperanto             |
-| 🗀 dict-es        | Spanish               |
-| 🗀 dict-et        | Estonian              |
-| 🗀 dict-fa        | Persian               |
-| 🗀 dict-fr        | French                |
-| 🗀 dict-gd        | Scottish Gaelic       |
-| 🗀 dict-gl        | Galician              |
-| 🗀 dict-gu        | Gujarati              |
-| 🗀 dict-he        | Hebrew                |
-| 🗀 dict-hi        | Hindi                 |
-| 🗀 dict-hr        | Croatian              |
-| 🗀 dict-hu        | Hungarian             |
-| 🗀 dict-id        | Indonesian            |
-| 🗀 dict-is        | Icelandic             |
-| 🗀 dict-it        | Italian               |
-| 🗀 dict-ko        | Korean                |
-| 🗀 dict-lo        | Lao                   |
-| 🗀 dict-lt        | Lithuanian            |
-| 🗀 dict-lv        | Latvian               |
-| 🗀 dict-mn        | Mongolian             |
-| 🗀 dict-ne        | Nepali                |
-| 🗀 dict-nl        | Dutch                 |
-| 🗀 dict-no        | Norwegian             |
-| 🗀 dict-oc        | Occitan               |
-| 🗀 dict-pl        | Polish                |
-| 🗀 dict-pt-BR     | Portuguese (Brazil)   |
-| 🗀 dict-pt-PT     | Portuguese (Portugal) |
-| 🗀 dict-ro        | Romanian              |
-| 🗀 dict-ru        | Russian               |
-| 🗀 dict-si        | Sinhala               |
-| 🗀 dict-sk        | Slovak                |
-| 🗀 dict-sl        | Slovene               |
-| 🗀 dict-sq        | Albanian              |
-| 🗀 dict-sr        | Serbian               |
-| 🗀 dict-sv        | Swedish               |
-| 🗀 dict-te        | Telugu                |
-| 🗀 dict-th        | Thai                  |
-| 🗀 dict-tr        | Turkish               |
-| 🗀 dict-uk        | Ukrainian             |
-| 🗀 dict-vi        | Vietnamese            |
-| 🗀 dict-zu        | Zulu                  |
+| **Folder** | **Language** |
+| ---------- | ------------ |
+| dict-af | Afrikaans |
+| dict-an | Aragonese |
+| dict-ar | Arabic |
+| dict-be | Belarusian |
+| dict-bg | Bulgarian |
+| dict-bn | Bengali |
+| dict-bo | Tibetan |
+| dict-br | Breton |
+| dict-bs | Bosnian |
+| dict-ca | Catalan |
+| dict-ckb | Central Kurdish |
+| dict-cs | Czech |
+| dict-da | Danish |
+| dict-de | German |
+| dict-el | Greek |
+| dict-en | English |
+| dict-eo | Esperanto |
+| dict-es | Spanish |
+| dict-et | Estonian |
+| dict-fa | Persian |
+| dict-fr | French |
+| dict-gd | Scottish Gaelic |
+| dict-gl | Galician |
+| dict-gu | Gujarati |
+| dict-he | Hebrew |
+| dict-hi | Hindi |
+| dict-hr | Croatian |
+| dict-hu | Hungarian |
+| dict-id | Indonesian |
+| dict-is | Icelandic |
+| dict-it | Italian |
+| dict-ko | Korean |
+| dict-lo | Lao |
+| dict-lt | Lithuanian |
+| dict-lv | Latvian |
+| dict-mn | Mongolian |
+| dict-ne | Nepali |
+| dict-nl | Dutch |
+| dict-no | Norwegian |
+| dict-oc | Occitan |
+| dict-pl | Polish |
+| dict-pt-BR | Portuguese (Brazil) |
+| dict-pt-PT | Portuguese (Portugal) |
+| dict-ro | Romanian |
+| dict-ru | Russian |
+| dict-si | Sinhala |
+| dict-sk | Slovak |
+| dict-sl | Slovene |
+| dict-sq | Albanian |
+| dict-sr | Serbian |
+| dict-sv | Swedish |
+| dict-te | Telugu |
+| dict-th | Thai |
+| dict-tr | Turkish |
+| dict-uk | Ukrainian |
+| dict-vi | Vietnamese |
+| dict-zu | Zulu |
 
-Yo can check the names [here](https://wiki.documentfoundation.org/Development/Dictionaries)
-
-This table includes the 42 languages ​​available in the collection, maintaining the original LibreOffice codecs and their Spanish names for clarity. Codes with hyphens (such as pt-BR and pt-PT) represent regionally specific variants of the language.
+You can check the language names [here](https://wiki.documentfoundation.org/Development/Dictionaries)
 
 ---
 
-## 🚀 Usage in applications
+## 🔤 Character Encoding
+
+### Original encodings (as extracted from LibreOffice Portable)
+
+When extracted from LibreOffice Portable 25.2.3, each dictionary used the
+character encoding declared in its `.aff` file (`SET <encoding>` line).
+The original encodings were:
+
+| **Folder** | **Language** | **Original Encoding** |
+| ---------- | ------------ | --------------------- |
+| dict-af | Afrikaans | UTF-8 |
+| dict-an | Aragonese | ISO-8859-1 |
+| dict-ar | Arabic | *(not declared)* |
+| dict-be | Belarusian | UTF-8 |
+| dict-bg | Bulgarian | UTF-8 |
+| dict-bn | Bengali | UTF-8 |
+| dict-bo | Tibetan | UTF-8 |
+| dict-br | Breton | UTF-8 |
+| dict-bs | Bosnian | ISO-8859-2 |
+| dict-ca | Catalan | UTF-8 |
+| dict-ckb | Central Kurdish | UTF-8 |
+| dict-cs | Czech | UTF-8 |
+| dict-da | Danish | UTF-8 |
+| dict-de | German | ISO-8859-1 |
+| dict-el | Greek | ISO-8859-7 |
+| dict-en | English | UTF-8 |
+| dict-eo | Esperanto | UTF-8 |
+| dict-es | Spanish | UTF-8 |
+| dict-et | Estonian | ISO-8859-15 |
+| dict-fa | Persian | UTF-8 |
+| dict-fr | French | UTF-8 |
+| dict-gd | Scottish Gaelic | UTF-8 |
+| dict-gl | Galician | UTF-8 |
+| dict-gu | Gujarati | UTF-8 |
+| dict-he | Hebrew | UTF-8 |
+| dict-hi | Hindi | UTF-8 |
+| dict-hr | Croatian | UTF-8 |
+| dict-hu | Hungarian | UTF-8 |
+| dict-id | Indonesian | ISO-8859-1 |
+| dict-is | Icelandic | UTF-8 |
+| dict-it | Italian | UTF-8 |
+| dict-ko | Korean | UTF-8 |
+| dict-lo | Lao | UTF-8 |
+| dict-lt | Lithuanian | ISO-8859-13 |
+| dict-lv | Latvian | UTF-8 |
+| dict-mn | Mongolian | UTF-8 |
+| dict-ne | Nepali | UTF-8 |
+| dict-nl | Dutch | UTF-8 |
+| dict-no | Norwegian | ISO-8859-1 |
+| dict-oc | Occitan | UTF-8 |
+| dict-pl | Polish | ISO-8859-2 |
+| dict-pt-BR | Portuguese (Brazil) | *(not declared)* |
+| dict-pt-PT | Portuguese (Portugal) | UTF-8 |
+| dict-ro | Romanian | UTF-8 |
+| dict-ru | Russian | UTF-8 |
+| dict-si | Sinhala | UTF-8 |
+| dict-sk | Slovak | UTF-8 |
+| dict-sl | Slovene | ISO-8859-2 |
+| dict-sq | Albanian | UTF-8 |
+| dict-sr | Serbian | UTF-8 |
+| dict-sv | Swedish | UTF-8 |
+| dict-te | Telugu | UTF-8 |
+| dict-th | Thai | UTF-8 |
+| dict-tr | Turkish | UTF-8 |
+| dict-uk | Ukrainian | UTF-8 |
+| dict-vi | Vietnamese | UTF-8 |
+| dict-zu | Zulu | UTF-8 |
+
+**11 dictionaries** used non-UTF8 encodings (ISO-8859-1, ISO-8859-2,
+ISO-8859-7, ISO-8859-13, ISO-8859-15), and 2 had no encoding declared.
+
+### Current encodings (after conversion to UTF-8)
+
+All `.aff` and `.dic` files have been converted to **UTF-8** using `iconv`.
+The `SET` line in every `.aff` file now reads `SET UTF-8`.
+
+| **Folder** | **Language** | **Encoding** |
+| ---------- | ------------ | ------------ |
+| dict-af | Afrikaans | UTF-8 |
+| dict-an | Aragonese | UTF-8 |
+| dict-ar | Arabic | UTF-8 |
+| dict-be | Belarusian | UTF-8 |
+| dict-bg | Bulgarian | UTF-8 |
+| dict-bn | Bengali | UTF-8 |
+| dict-bo | Tibetan | UTF-8 |
+| dict-br | Breton | UTF-8 |
+| dict-bs | Bosnian | UTF-8 |
+| dict-ca | Catalan | UTF-8 |
+| dict-ckb | Central Kurdish | UTF-8 |
+| dict-cs | Czech | UTF-8 |
+| dict-da | Danish | UTF-8 |
+| dict-de | German | UTF-8 |
+| dict-el | Greek | UTF-8 |
+| dict-en | English | UTF-8 |
+| dict-eo | Esperanto | UTF-8 |
+| dict-es | Spanish | UTF-8 |
+| dict-et | Estonian | UTF-8 |
+| dict-fa | Persian | UTF-8 |
+| dict-fr | French | UTF-8 |
+| dict-gd | Scottish Gaelic | UTF-8 |
+| dict-gl | Galician | UTF-8 |
+| dict-gu | Gujarati | UTF-8 |
+| dict-he | Hebrew | UTF-8 |
+| dict-hi | Hindi | UTF-8 |
+| dict-hr | Croatian | UTF-8 |
+| dict-hu | Hungarian | UTF-8 |
+| dict-id | Indonesian | UTF-8 |
+| dict-is | Icelandic | UTF-8 |
+| dict-it | Italian | UTF-8 |
+| dict-ko | Korean | UTF-8 |
+| dict-lo | Lao | UTF-8 |
+| dict-lt | Lithuanian | UTF-8 |
+| dict-lv | Latvian | UTF-8 |
+| dict-mn | Mongolian | UTF-8 |
+| dict-ne | Nepali | UTF-8 |
+| dict-nl | Dutch | UTF-8 |
+| dict-no | Norwegian | UTF-8 |
+| dict-oc | Occitan | UTF-8 |
+| dict-pl | Polish | UTF-8 |
+| dict-pt-BR | Portuguese (Brazil) | UTF-8 |
+| dict-pt-PT | Portuguese (Portugal) | UTF-8 |
+| dict-ro | Romanian | UTF-8 |
+| dict-ru | Russian | UTF-8 |
+| dict-si | Sinhala | UTF-8 |
+| dict-sk | Slovak | UTF-8 |
+| dict-sl | Slovene | UTF-8 |
+| dict-sq | Albanian | UTF-8 |
+| dict-sr | Serbian | UTF-8 |
+| dict-sv | Swedish | UTF-8 |
+| dict-te | Telugu | UTF-8 |
+| dict-th | Thai | UTF-8 |
+| dict-tr | Turkish | UTF-8 |
+| dict-uk | Ukrainian | UTF-8 |
+| dict-vi | Vietnamese | UTF-8 |
+| dict-zu | Zulu | UTF-8 |
+
+**All 57 dictionaries are now UTF-8.** This ensures universal compatibility
+with Hunspell implementations on all platforms (Windows, Linux, macOS)
+without needing `libiconv` at runtime.
+
+---
+
+## 🚀 Usage in Applications
 
 ### For OpenOffice/LibreOffice:
 
@@ -110,7 +250,7 @@ This table includes the 42 languages ​​available in the collection, maintain
 /usr/share/hunspell/  (Linux)
 C:\Program Files\LibreOffice\share\extensions\dict\  (Windows)
 ```
-   
+
 3. Restart the application
 
 ### For Firefox/Thunderbird:
@@ -123,16 +263,18 @@ C:\Program Files\LibreOffice\share\extensions\dict\  (Windows)
 
 2. Restart the application
 
----
-
-### For developers (Hunspell):
+### For Developers (Hunspell):
 
 ```python
 import hunspell
-hunspell_object = hunspell.Hunspell("es_ES.dic", "es_ES.aff")
+h = hunspell.Hunspell("es_ES.aff", "es_ES.dic")
+h.spell("hola")  # True
 ```
 
+---
+
 ## ⚖️ Licenses
+
 Each dictionary has its own license. Check these files:
 
 - `LICENSE*.txt`
@@ -144,13 +286,15 @@ Most use:
 - **GPL**, **LGPL**, **MPL** (Mozilla Public License)
 - Open-source licenses (BSD, MIT, etc.)
 
-## 🔧 File structure
+---
+
+## 🔧 File Structure
 
 ```
 dict-xx/
 ├── xx_YY.aff       # Affix rules
 ├── xx_YY.dic       # Main dictionary
-├── hyph_xx_YY.dic  # Hyphenation patterns
+── hyph_xx_YY.dic  # Hyphenation patterns
 ├── th_xx_YY.dat    # Thesaurus data
 ├── th_xx_YY.idx    # Thesaurus index
 ├── description.xml # Metadata
@@ -158,271 +302,57 @@ dict-xx/
 └── README_*.txt    # Language information
 ```
 
+---
+
 ## 🔗 Use as Git Submodule
 
-This repository can be used as a **Git submodule** in other projects that require dictionary functionality. This is especially useful for:
+This repository can be used as a **Git submodule** in other projects that
+require dictionary functionality.
 
-- Text editors
-- Word processors
-- Language learning applications
-- Any software needing multilingual text processing
-
-### Packaging tools
-
-This repository includes helper scripts to package and distribute the dictionaries:
-
-- **`tools/package-dicts.sh`** — Compresses each `dict-XX/` folder into an individual
-  `.tar.gz` archive. Run this before creating a new GitHub Release.
-- **`tools/fetch-dict-list.py`** — Fetches the list of dictionary assets from a
-  published GitHub Release and generates a `dictionaries.json` file with download
-  URLs and sizes.
-- **`tools/README.md`** — Full usage instructions for both scripts.
-- **`dictionaries.json`** — Pre-generated index of all dictionaries with their
-  download URLs (from the
-  [v1.0-dictionaries-thesaurus](https://github.com/wachin/libreoffice-dictionaries-collection/releases/tag/v1.0-dictionaries-thesaurus)
-  release). Applications can consume this file to let users download dictionaries
-  on demand.
-- **`release-description.md`** — Release notes template for publishing new
-  dictionary releases.
-
-These tools are designed so that developers who fork or clone this repository
-can easily create their own releases and update the dictionary index accordingly.
-
-### 🐍 Integration Example: Python/PyQt6 Application
-
-#### 1. Add as Submodule
-In your project root:
+### Adding as Submodule
 
 ```bash
 git submodule add https://github.com/wachin/libreoffice-dictionaries-collection.git libs/dictionaries
 git commit -m "Add dictionaries submodule"
 ```
 
-#### 2. Install Dependencies (Ubuntu/Debian)
+### Updating the Submodule
 
-```bash
-sudo apt-get install python3-pyqt6 python3-enchant python3-hunspell python3-pyphen libmythes-1.2-0 libmythes-dev
-pip install git+https://github.com/corerd/pythes
-```
-
-#### 3. Project Structure
-
-```
-your-project/
-├── .gitmodules
-├── main.py
-├── requirements.txt
-└── libs/
-    └── dictionaries/  # Submodule
-        ├── dicts/
-        │   ├── dict-es/
-        │   ├── dict-en/
-        │   └── ...
-        └── README.md
-```
-
-#### 4. Code Implementation
-
-```python
-import os
-import sys
-from PyQt6.QtWidgets import QApplication, QMainWindow, QTextEdit, QVBoxLayout, QWidget, QPushButton
-
-# Dictionary libraries
-import enchant
-import hunspell
-import pyphen
-from pythes import Thesaurus
-
-class DictionaryApp(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.dict_path = os.path.join(os.path.dirname(__file__), 
-                                     "libs", "dictionaries", "dicts")
-        self.init_ui()
-        self.init_dictionaries()
-    
-    def init_ui(self):
-        self.setWindowTitle("Dictionary Processor")
-        self.setGeometry(100, 100, 800, 600)
-        
-        # Layout
-        layout = QVBoxLayout()
-        self.text_edit = QTextEdit()
-        layout.addWidget(self.text_edit)
-        
-        # Buttons
-        btn_spell = QPushButton("Check Spelling")
-        btn_spell.clicked.connect(self.check_spelling)
-        layout.addWidget(btn_spell)
-        
-        btn_hyphen = QPushButton("Hyphenate")
-        btn_hyphen.clicked.connect(self.hyphenate_text)
-        layout.addWidget(btn_hyphen)
-        
-        btn_synonyms = QPushButton("Get Synonyms")
-        btn_synonyms.clicked.connect(self.get_synonyms)
-        layout.addWidget(btn_synonyms)
-        
-        container = QWidget()
-        container.setLayout(layout)
-        self.setCentralWidget(container)
-    
-    def init_dictionaries(self):
-        # Initialize Spanish dictionaries
-        lang = "es"
-        lang_path = os.path.join(self.dict_path, f"dict-{lang}")
-        
-        # Spell checking (Hunspell)
-        self.hunspell = hunspell.HunSpell(
-            os.path.join(lang_path, f"{lang}_ES.aff"),
-            os.path.join(lang_path, f"{lang}_ES.dic")
-        )
-        
-        # Hyphenation (Pyphen)
-        self.pyphen = pyphen.Pyphen(lang=f"{lang}_ES")
-        
-        # Thesaurus (MyThes)
-        self.thesaurus = Thesaurus(
-            os.path.join(lang_path, f"th_{lang}_ES_v2.dat"),
-            os.path.join(lang_path, f"th_{lang}_ES_v2.idx")
-        )
-    
-    def check_spelling(self):
-        text = self.text_edit.toPlainText()
-        words = text.split()
-        
-        print("\n=== SPELL CHECK RESULTS ===")
-        for word in words:
-            word = word.strip(".,!?;:")
-            if word:
-                if self.hunspell.spell(word):
-                    print(f"✓ {word}")
-                else:
-                    suggestions = self.hunspell.suggest(word)
-                    print(f"✗ {word} -> {suggestions[:3]}")  # Show top 3 suggestions
-    
-    def hyphenate_text(self):
-        text = self.text_edit.toPlainText()
-        words = text.split()
-        
-        print("\n=== HYPHENATION RESULTS ===")
-        for word in words:
-            word = word.strip(".,!?;:")
-            if word:
-                hyphenated = self.pyphen.inserted(word)
-                print(f"{word} -> {hyphenated}")
-    
-    def get_synonyms(self):
-        word = self.text_edit.toPlainText().strip()
-        if not word:
-            return
-            
-        print(f"\n=== SYNONYMS FOR '{word}' ===")
-        meanings = self.thesaurus.lookup(word)
-        if meanings:
-            for i, meaning in enumerate(meanings[:3], 1):  # Show top 3 meanings
-                print(f"{i}. {meaning.description}:")
-                print(f"   {', '.join(meaning.synonyms[:5])}")  # Show top 5 synonyms
-        else:
-            print("No synonyms found")
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = DictionaryApp()
-    window.show()
-    sys.exit(app.exec())
-```
-
-### 📚 Dictionary Usage Examples
-
-#### Spell Checking (Hunspell)
-
-```python
-import hunspell
-
-# Initialize dictionary
-h = hunspell.HunSpell("libs/dictionaries/dicts/dict-es/es_ES.aff", 
-                     "libs/dictionaries/dicts/dict-es/es_ES.dic")
-
-# Check word
-word = "computadora"
-if h.spell(word):
-    print(f"'{word}' is correct")
-else:
-    suggestions = h.suggest(word)
-    print(f"Suggestions: {suggestions}")
-```
-
-#### Hyphenation (Pyphen)
-```python
-import pyphen
-
-# Initialize dictionary
-dic = pyphen.Pyphen(lang='es_ES')
-
-# Hyphenate word
-word = "extraordinario"
-hyphenated = dic.inserted(word)  # "ex-tra-or-di-na-rio"
-print(f"Hyphenation: {hyphenated}")
-```
-
-#### Thesaurus (MyThes via pythes)
-
-```python
-from pythes import Thesaurus
-
-# Initialize thesaurus
-thes = Thesaurus("libs/dictionaries/dicts/dict-es/th_es_ES_v2.dat",
-                 "libs/dictionaries/dicts/dict-es/th_es_ES_v2.idx")
-
-# Get synonyms
-word = "rápido"
-meanings = thes.lookup(word)
-for meaning in meanings:
-    print(f"{meaning.description}: {meaning.synonyms}")
-```
-
-### 🔄 Update Submodule
-To update dictionaries to the latest version:
 ```bash
 git submodule update --remote --merge
 ```
 
-### 💡 Benefits of Using as Submodule
+### Packaging Tools
 
-1. **Centralized Management**: Single source for all dictionaries
-2. **Version Control**: Pin specific dictionary versions
-3. **Space Efficiency**: Dictionaries stored once, referenced by multiple projects
-4. **Easy Updates**: Update all dictionaries with one command
-5. **Collaboration**: Contribute improvements upstream
+This repository includes helper scripts:
 
-### 🛠️ Supported Libraries
-| Functionality  |    Library    |   Files Used    |
-| -------------- | ------------- | --------------- |
-| Spell Checking | hunspell      | `.aff` + `.dic` |
-| Hyphenation    | pyphen        | `.dic` patterns |
-| Thesaurus      | pythes/MyThes | `.dat` + `.idx` |
-| Alternative    | enchant       | `.aff` + `.dic` |
+- **`tools/package-dicts.sh`** — Compresses each `dict-XX/` folder into
+  `.tar.gz` archives for releases.
+- **`tools/fetch-dict-list.py`** — Generates `dictionaries.json` from a
+  GitHub Release.
+- **`tools/convert-to-utf8.bat`** — Converts all non-UTF8 dictionaries to
+  UTF-8 using `iconv.exe` from MSYS2.
 
-## Notes
-
-The file "package-description.txt" is located in the [dicts/dict-es](dicts/dict-es) folder, but it didn't contain the dictionary abbreviation names. However, the abbreviations are listed in a link there [https://github.com/sbosio/rla-es/blob/master/README.md](https://github.com/sbosio/rla-es/blob/master/README.md), so I copied and pasted them in "package-description.txt".
+---
 
 ## 🤝 Contributions
+
 Contributions are welcome! If you find:
+
 - Missing dictionaries
 - File errors
 - License issues
 
 Open an *issue* or submit a *pull request*.
 
-## 📄 Credits
+---
+
+##  Credits
+
 - **Original source**: [LibreOffice Portable](https://portableapps.com/)
 - **Developers**: LibreOffice team and dictionary contributors
 - **Licenses**: See specific files for each language
 
 ---
 
-**Last updated**: Extracted from LibreOffice 25.2.3 (2025)
-
+**Last updated**: Extracted from LibreOffice 25.2.3 (2025) · All dictionaries converted to UTF-8
